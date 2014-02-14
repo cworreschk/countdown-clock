@@ -1,5 +1,5 @@
 # Countdown-Clock
-The church [Die Basis](http://www.die-basis.org) in Mainz, Germany wanted a simple HTML page with a configurable countdown and clock for their session. So we've started this project to realize this wish.
+The church [Die Basis](http://www.die-basis.org) in Mainz, Germany wanted a simple HTML page with a configurable countdown and clock for their session. So we've started this project to realize their wish.
 
 ## Demo
 [die-basis.org/clock_v2](http://www.die-basis.org/clock_v2/index.html)
