@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+section,article,header,footer,hgroup,figcaption,figure{ display:block; }
+
+html { height:100%; min-height:100%; }
+html,body,table,tr,td,div,img,a { border:0; margin:0; padding:0 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  font-size: 12px;
+  overflow:hidden;
+}
+
+a { color: white; text-decoration: none; }
+a:focus { outline: none; }
+a:hover { text-decoration:underline;}
+
+h1 { font-size:20px; }
+h2 { font-size:15px; }
+h3 { font-size:13px; }
+h4 { font-size:12px; }
+
+fieldset { padding:5px; margin-bottom:20px; }
+
+a img {	border: none; }
+
+hr {
+  border : none;
+  border-top : 1px solid white;
+  height : 1px;
+}
+
+/*---------------------------------------------*/
+
+/* Floating */
+.fLeft{float:left}
+.fRight{float:right}
+.fClear{float:none; clear:both;}
+
+/* Vertical Alignement */
+.vTop{vertical-align:top}
+.vSub{vertical-align:sub}
+.vSuper{vertical-align:super}
+.vBottom{vertical-align:bottom}
+.vMiddle{vertical-align:middle}
+
+/* Horizontal Alignment*/
+.hLeft{text-align:left;}
+.hCenter{text-align:center;}
+.hRight{text-align:right;}
+.hJustify{text-align:justify;}
+
+/* Text-Transform */
+.tCapitalize{text-transform:capitalize;}
+.tUpper{text-transform:uppercase;}
+.tLower{text-transform:lowercase;}
+
+/*------------------- CONFIG -------------------*/
+
+#config {
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:200px;
+  overflow:hidden;
+  z-index:3;
+  font-size: 10px;
+  opacity: 0.0;
+}
+
+#config td {
+  padding: 1px 0px;
+}
+
+#config input {
+  font-size: 11px;
+}
+
+.config-bkg {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:220px;
+  height: 100%;
+  z-index:2;
+  background-color:white;
+  opacity: 0.0;
+}
+
+/*------------------- CLOCK -------------------*/
+
+#clock {
+  position: relative;
+  z-index:1;
+  overflow : hidden;
+  text-align:center;
+  margin-top:200px;
+  font-size: 300px;
+}
+
+#clock div{
+  display: inline-block;
+  margin: 0px 10px;
+  overflow:hidden;
+}
+
+#clock .minus {
+  visibility: hidden;
+}
+
+/*------------------- BUTTONS -------------------*/
+
+.buttons { margin: 20px 0px; }
+
+.buttons input { 
+  font-size:11px;
+  padding: 2px 5px;
+  margin: 0px 2px 0px 0px;
+}
