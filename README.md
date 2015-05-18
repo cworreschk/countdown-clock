@@ -1,5 +1,5 @@
 # Countdown-Clock
-The church [Die Basis](http://www.die-basis.org) in Mainz, Germany wanted a simple HTML page with a configurable countdown and clock for their session. So we've started this project to realize their wish.
+The church [Die Basis](http://www.die-basis.org) in Mainz, Germany wanted a simple HTML page with a configurable countdown and clock for their session. So I have started this project to realize their wish.
 
 ## Demo
 [die-basis.org/clock_v2](http://www.die-basis.org/clock_v2/index.html)
@@ -14,7 +14,7 @@ Simply upload the code to your server and run the _index.html_ :)
 To change the settings or to start the countdown/clock just go with your mouse pointer to the left side of the page.
 
 ## Copyright
-Copyright © 2012 by Christian Worreschk, MarSec.
+Copyright © 2012 by Christian Worreschk.
 
 ## License
 [European Union Public Licence V. 1.1](http://opensource.org/licenses/EUPL-1.1).
