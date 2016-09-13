@@ -18,7 +18,7 @@ Copyright © 2012 by Christian Worreschk.
 
 ## Versioning
 
-Uikit::Sass::Rails will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+Countdown-Clock will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 
 `<major>.<minor>.<patch>`
 
