@@ -1,3 +1,5 @@
+/* Copyright (c) 2012 Christian Worreschk | github.com/cworreschk/countdown-clock/blob/master/LICENSE.md */
+
 function Config() {
   this.colorpicker = false;
   
