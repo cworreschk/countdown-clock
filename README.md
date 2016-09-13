@@ -17,4 +17,4 @@ To change the settings or to start the countdown/clock just go with your mouse p
 Copyright © 2012 by Christian Worreschk.
 
 ## License
-[European Union Public Licence V. 1.1](http://opensource.org/licenses/EUPL-1.1).
+[MIT License](http://opensource.org/licenses/mit)
