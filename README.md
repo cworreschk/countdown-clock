@@ -11,7 +11,7 @@ Simply upload the code to your server and run the _index.html_ :)
 To change the settings or to start the countdown/clock just go with your mouse pointer to the left side of the page.
 
 ## Copyright
-Copyright © 2012 by Christian Worreschk.
+Copyright © 2017 by Christian Worreschk.
 
 ## License
 [MIT License](http://opensource.org/licenses/mit)
