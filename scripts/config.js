@@ -16,6 +16,8 @@ function Config() {
     $("#config .timer_font_color_2").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
     $("#config .timer_body_color_2").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
 
+    $("#config .clock_font_color_0").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
+    $("#config .clock_body_color_0").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
     $("#config .clock_font_color_1").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
     $("#config .clock_body_color_1").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
     $("#config .clock_font_color_2").miniColors({ change: function(hex,rgb) { _this.colorpickerChange(this,hex); }, open: function(hex,rgb) { _this.colorpickerOpen(this,hex); }, close: function(hex,rgb) { _this.colorpickerClose(this,hex); }});
@@ -116,8 +118,6 @@ function Config() {
         '<tr><th colspan="2">Grundeinstellungen</th></tr>' +
       '</table>' +
       '<table class="sub">' +
-        '<tr><td style="width:70px">Hintergrund:</td><td><input type="text" class="body_color" value="#000000" /></td></tr>' +
-        '<tr><td>Schriftfarbe:</td><td><input type="text" class="font_color" value="#ffffff" /></td></tr>' +
         '<tr><td>Schriftgröße:</td><td><input type="number" class="font_size" min="100" max="800" value="300" style="width:45px" /></td></tr>' +
       '</table>'
     );
@@ -130,6 +130,10 @@ function Config() {
       '</table>' +
       '<table class="sub">' +
         '<tr><td style="width:70px">Startzeit:</td><td><input type="text" class="start_time" value="30:00" style="width:45px" /></td></tr>' +
+      '</table>' +
+      '<table class="sub">' +
+        '<tr><td style="width:70px">Hintergrund:</td><td><input type="text" class="body_color" value="#000000" /></td></tr>' +
+        '<tr><td>Schriftfarbe:</td><td><input type="text" class="font_color" value="#ffffff" /></td></tr>' +
       '</table>' +
       '<table class="sub">' +
         '<tr><th style="width:70px">Übergang 1</th><th><input type="checkbox" class="timer_gradient_1" checked /></th></tr>' +
@@ -150,6 +154,10 @@ function Config() {
     $("#config .foreground").append(
       '<table style="margin-bottom:0px;">' +
         '<tr><th colspan="2">Uhrzeit</th></tr>' +
+      '</table>' +
+      '<table class="sub"">' +
+        '<tr><td>Hintergrund:</td><td><input type="text" class="clock_body_color_0" value="#000000" /></td></tr>' +
+        '<tr><td>Schriftfarbe:</td><td><input type="text" class="clock_font_color_0" value="#ffffff" /></td></tr>' +
       '</table>' +
       '<table class="sub"">' +
         '<tr><th style="width:70px">Übergang 1</th><th><input type="checkbox" class="clock_gradient_1" checked /></th></tr>' +

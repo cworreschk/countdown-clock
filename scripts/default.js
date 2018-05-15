@@ -107,6 +107,11 @@ $(function() {
   }
 
   function startTimer(){
+    var bg_color = $("#config .body_color").attr('value');
+    var fg_color = $("#config .font_color").attr('value');
+    $("body").css("background-color", bg_color);
+    $("#clock").css('color', fg_color);
+
     stopTimer();
     counter.clock = false;
     counter.digits = getDigits($("#config .start_time"));
@@ -117,6 +122,11 @@ $(function() {
   }
 
   function startClock(){
+    var bg_color = $("#config .clock_body_color_0").attr('value');
+    var fg_color = $("#config .clock_font_color_0").attr('value');
+    $("body").css("background-color", bg_color);
+    $("#clock").css('color', fg_color);
+
     stopTimer();
     counter.setCurrentTime(false)
     counter.clock = true;
